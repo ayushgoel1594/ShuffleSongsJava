@@ -72,6 +72,7 @@ public class Client {
 				}
 				break;
 			case 4:
+				System.out.println("Exiting!!");
 				System.exit(0);
 				break;
 			default:
@@ -85,7 +86,6 @@ public class Client {
 					Scanner scanner = new Scanner(System.in);
 					choice = scanner.nextInt();
 				} catch(InputMismatchException e){
-					System.out.println("Exiting!");
 				}
 				//the songs will be played again if the user presses 1
 				if(choice==1){
